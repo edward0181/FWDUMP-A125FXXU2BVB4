@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/edward/dumper/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 15, in <module>
+    from vmlinuz_decompressor import obtain_raw_kernel_from_file
+  File "/home/edward/dumper/vmlinux-to-elf/vmlinux_to_elf/vmlinuz_decompressor.py", line 5, in <module>
+    from bz2 import BZ2Decompressor
+  File "/usr/local/lib/python3.10/bz2.py", line 17, in <module>
+    from _bz2 import BZ2Compressor, BZ2Decompressor
+ModuleNotFoundError: No module named '_bz2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/edward/dumper/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 18, in <module>
+    from vmlinux_to_elf.architecture_detecter import guess_architecture, ArchitectureName, architecture_name_to_elf_machine_and_is64bits_and_isbigendian, ArchitectureGuessError
+ModuleNotFoundError: No module named 'vmlinux_to_elf'

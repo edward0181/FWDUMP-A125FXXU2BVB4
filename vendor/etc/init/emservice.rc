@@ -1,0 +1,20 @@
+service emservice /vendor/bin/emservice
+    class core
+    user system
+    group system
+    disabled
+
+on post-fs-data
+    start emservice
+
+on property:init.svc.zygote=restarting
+    restart emservice
+
+on property:init.svc.ril-daemon=restarting
+    start emservicerild
+
+service emservicerild /vendor/bin/emservice rild
+    user system
+    group system
+    oneshot
+    disabled

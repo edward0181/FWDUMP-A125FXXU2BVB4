@@ -1,0 +1,5 @@
+service ewlogd /system/bin/ewlogd
+    class core
+    user system
+    group system
+    socket ewlogd dgram+passcred 0666 system system

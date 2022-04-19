@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ev2lux_map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" table_ver="20201103_00" target_device="A125F">
+	<item>
+		<exposure>90</exposure>
+		<brightness>-500</brightness>
+		<lux>0</lux>
+	</item>
+	<item>
+		<exposure>200</exposure>
+		<brightness>500</brightness>
+		<lux>30</lux>
+		
+	</item>
+	<item>
+		<exposure>200</exposure>
+		<brightness>600</brightness>
+		<lux>50</lux>
+	</item>
+	<item>
+		<exposure>200</exposure>
+		<brightness>700</brightness>
+		<lux>70</lux>
+	</item>
+	<item>
+		<exposure>200</exposure>		
+		<brightness>1100</brightness>
+		<lux>100</lux>
+	</item>
+		<item>
+		<exposure>200</exposure>			
+		<brightness>1300</brightness>
+		<lux>200</lux>
+	</item>
+		<item>
+		<exposure>200</exposure>			
+		<brightness>1900</brightness>
+		<lux>300</lux>
+	</item>
+		<item>
+		<exposure>300</exposure>
+		<lux>500</lux>
+	</item>
+		<item>
+		<exposure>400</exposure>
+		<lux>700</lux>
+	</item>
+		<item>
+		<exposure>650</exposure>
+		<lux>1000</lux>
+	</item>
+	<item>
+		<exposure>1400</exposure>
+		<lux>1500</lux>
+	</item>
+	<item>
+		<exposure>2015862</exposure>
+		<lux>3000</lux>
+	</item>
+
+</ev2lux_map>
